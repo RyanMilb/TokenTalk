@@ -10,7 +10,7 @@ truffle migrate
 
 
 ##Token contract
-
+```javascript
 pragma solidity ^0.4.4;
 import 'zeppelin-solidity/contracts/token/StandardToken.sol';
 
@@ -32,4 +32,4 @@ var TutorialToken = artifacts.require("./TutorialToken.sol");
 module.exports = function(deployer) {
   deployer.deploy(TutorialToken);
 };
-
+```
